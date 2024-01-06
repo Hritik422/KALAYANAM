@@ -1,0 +1,39 @@
+img{
+    max-width: 300px;
+    
+}
+#same{
+    padding: 30px;
+}
+#cost{
+    display: flex;
+    flex-direction: column;
+}
+.pics1{
+ 
+    display: flex;
+    justify-content:space-around;
+    width: 1450px;
+    height: 400px;
+}
+.pics1:hover{
+    background-color: rgb(246, 148, 180);
+}
+hr{
+    display: block;
+    width:1600px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:groove;
+  border-width: 1px;
+}
+.zoom-img{
+    transition: transform .2s;
+
+}
+.zoom-img:hover {
+    transform: scale(1.2);
+  }
+

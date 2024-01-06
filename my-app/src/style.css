@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    max-width: 0;
+}
+.bg{
+    background: url("./P.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 800px;
+}
+nav{
+    height: 100px;
+    display: flex;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    border-color: white;
+    box-shadow: 0 0 10px #646c74;
+    width:1500px;
+    background-color:rgb(208, 33, 91);
+}
+nav>img{
+    padding: 15px;
+}
+nav>ul{
+    display: flex;
+    list-style-type:none;
+    margin-left: 700px;
+}
+ul>li{
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    font-weight: 900;
+    color: aliceblue;
+}
+.login{
+    margin-top: 35px;
+    background-color: pink;
+    width: 120px;
+    height: 27px;
+    text-align: center;
+    border-radius: 9px;
+    border-width: 20px;
+}
+.front-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 800;
+    width: 1400px;
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size:40px;
+    text-align: center;
+    width: 500px;
+}
+.vendor,.city{
+    border-radius: 80px;
+    height: 50px;
+    width: 400px;
+}
+.submit{
+    background-color:rgb(208, 33, 91);
+    color: whitesmoke;
+    font-size:medium;
+    font-weight: bolder;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+h5{
+    font-size: medium;
+    width: 500px;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+}
+.sign-up-page{
+    display: flex;
+    width: 1500px;
+    height: 710px;
+}
+.bg-2{
+    background: url("./P.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 870px;
+}
+.sign-up{
+    margin-left: 150px;
+    justify-items: center;
+    display: flex;
+    height: 710px;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+input{
+    font-size:medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+}
+.submit1:hover{
+    background-color: rgb(208, 33, 91);
+}

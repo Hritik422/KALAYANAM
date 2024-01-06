@@ -1,0 +1,35 @@
+.editing{
+    height: 700px;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.container {
+    margin-left: 90px;
+    margin-top: 30px;
+    height:400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+  
+  /* Bottom right text */
+  .text-block {
+    word-wrap: break-word;
+    position: absolute;
+    color:rgb(229, 177, 45);
+    max-width: 195px;
+    max-height:200px;
+    left:40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size:10px;
+    z-index:5;
+  }
+  .text-block>h4{
+    font-size: large;
+  }
+  .text-block>p{
+    font-size: medium;
+  }
